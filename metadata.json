@@ -1,0 +1,6 @@
+{
+  "name": "FUT Trader",
+  "description": "Herramienta de trading para EA FC: comparador de precios Futbin vs FUT.GG en tiempo real, arbitraje automatizado, cálculo de tasa EA 5%, alertas de noticias y recomendaciones de compra/venta con IA para FC 27.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

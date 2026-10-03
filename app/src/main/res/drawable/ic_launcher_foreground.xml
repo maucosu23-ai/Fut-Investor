@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Golden Shield Outer Card -->
+    <path
+        android:pathData="M54,22 L78,32 L78,64 L54,84 L30,64 L30,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="22"
+                android:endX="78"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#F8D348" />
+                <item android:offset="0.4" android:color="#E0A71B" />
+                <item android:offset="1.0" android:color="#996E06" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner Dark Shield -->
+    <path
+        android:pathData="M54,26 L74,34 L74,62 L54,80 L34,62 L34,34 Z"
+        android:fillColor="#0D1424" />
+
+    <!-- Trading Candlestick Bars (Green / Mint) -->
+    <path
+        android:pathData="M42,48 L42,66 M42,52 L42,62"
+        android:strokeColor="#00E676"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M50,42 L50,64 M50,46 L50,58"
+        android:strokeColor="#00E676"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M58,38 L58,60 M58,40 L58,54"
+        android:strokeColor="#00E676"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+
+    <!-- Upward Trending Dynamic Profit Arrow (Neon Cyan/Mint) -->
+    <path
+        android:pathData="M38,62 L48,50 L56,54 L68,38"
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M61,38 L68,38 L68,45"
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Mini Gold Coin Star at the top -->
+    <path
+        android:pathData="M54,32 L56,36 L60,36 L57,39 L58,43 L54,41 L50,43 L51,39 L48,36 L52,36 Z"
+        android:fillColor="#FFEA00" />
+</vector>
